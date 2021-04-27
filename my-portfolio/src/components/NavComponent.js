@@ -6,15 +6,18 @@ const NavComponent = () => {
         <div className='navComponent'>
             <div className='navComponent' id='sec-1'>
                 <div className='navComponent' id='nav-1'>
-                    Bio
+                    Home
                 </div>
                 <div className='navComponent' id='nav-2'>
-                    Resume
+                    Bio
                 </div>
                 <div className='navComponent' id='nav-3'>
-                    Projects
+                    Resume
                 </div>
                 <div className='navComponent' id='nav-4'>
+                    Projects
+                </div>
+                <div className='navComponent' id='nav-5'>
                     Contact
                 </div>
             </div>
