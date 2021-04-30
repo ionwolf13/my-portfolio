@@ -5,6 +5,12 @@ const ContactComponent = () => {
     return(
         <div>
             <h1>Contact Info</h1>
+            <div>
+                <p>LinkedIn</p>
+                <p>email</p>
+                <p>github</p>
+                <p>medium</p>
+            </div>
         </div>
     )
 }
