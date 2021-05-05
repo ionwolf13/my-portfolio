@@ -4,6 +4,9 @@ const NavComponent = () => {
 
     return(
         <div className='navComponent'>
+            <div>
+                picture section and stuff 
+            </div>
             <div className='navComponent' id='sec-1'>
                 <div className='navComponent' id='nav-1'>
                     Home
