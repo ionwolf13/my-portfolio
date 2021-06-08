@@ -10,7 +10,7 @@ import ProjectsComponent from './ProjectsComponent.js';
 const MainContainer = () => {
 
     const [portfolioInfo, setPortfolioInfo] = useState({currentLink: 'home'});
-
+    
 
     return(
         <div className='mainContainer'>
