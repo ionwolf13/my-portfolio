@@ -1,4 +1,5 @@
 import React from 'react';
+import contactIcon from '../css/contactIcon.png';
 
 const HomeComponent = () => {
 
@@ -9,9 +10,9 @@ const HomeComponent = () => {
 
             </div>
             <div>
-                <p>
-                    unravel logo
-                </p>
+                <h2>Connect with Me!</h2>
+            <img src={contactIcon} alt="contact icon" height='150'/>
+                <p>this is the home component</p>
             </div>
         </div>
     )
