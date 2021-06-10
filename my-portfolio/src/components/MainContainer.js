@@ -6,14 +6,13 @@ import BioComponent from './BioComponent.js';
 import ResumeComponent from './ResumeComponent.js';
 import ProjectsComponent from './ProjectsComponent.js';
 
-
 const MainContainer = () => {
 
     const [portfolioInfo, setPortfolioInfo] = useState({currentLink: 'home'});
-    
+
 
     return(
-        <div className='mainContainer'>
+        <div className='main-container'>
             <h1 className='mainContainer-FullName'> Jesus Israel Garcia </h1>
             <NavComponent portfolioInfo={portfolioInfo} setPortfolioInfo={setPortfolioInfo}/>
             <HomeComponent/>

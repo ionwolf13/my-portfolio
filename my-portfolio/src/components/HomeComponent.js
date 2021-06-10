@@ -8,6 +8,11 @@ const HomeComponent = () => {
             <div className='homeComponent' id='home-sec-1'>
 
             </div>
+            <div>
+                <p>
+                    unravel logo
+                </p>
+            </div>
         </div>
     )
 }
