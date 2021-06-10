@@ -13,7 +13,7 @@ const MainContainer = () => {
 
     return(
         <div className='main-container'>
-            <h1 className='mainContainer-FullName'> Jesus Israel Garcia </h1>
+            <h1 className='main-container-full-name'> Jesus Israel Garcia </h1>
             <NavComponent portfolioInfo={portfolioInfo} setPortfolioInfo={setPortfolioInfo}/>
             <HomeComponent/>
             <BioComponent/>
