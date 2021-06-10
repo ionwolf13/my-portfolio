@@ -1,33 +1,33 @@
 import React from 'react';
+import bioIcon from '../css/bioIcon.jpg';
+import homeIcon from '../css/homeIcon.png';
+import projectIcon from '../css/projectIcon.png';
+import resumeIcon from '../css/resumeIcon.png';
 
-const NavComponent = ({portfolioInfo, setPortfolioInfo}) => {
+const NavComponent = ({info, setInfo}) => {
 
-    const changeNav = (icon) => {
-        portfolioInfo = icon
+    const changeNav = (iconName) => {
+        setInfo({currentLink: iconName})
+        console.log(iconName)
+        console.log(info)
     }
 
 
 
     return(
         <div className='nav-component'>
-            <div>
-                picture section and stuff 
-            </div>
             <div className='nav-component' id='sec-1'>
                 <div className='nav-component' id='nav-1' onClick={() => changeNav("Home")}>
-                    Home
+                    <img src={homeIcon} alt="home icon" height='100'/>
                 </div>
                 <div className='nav-component' id='nav-2' onClick={() => changeNav("Bio")} >
-                    Bio
+                    <img src={bioIcon} alt="bio icon" height='100'/>
                 </div>
                 <div className='nav-component' id='nav-3' onClick={() => changeNav("Resume")} >
-                    Resume
+                    <img src={resumeIcon} alt="resume icon" height='100'/>
                 </div>
                 <div className='nav-component' id='nav-4' onClick={() => changeNav("Projects")} >
-                    Projects
-                </div>
-                <div className='nav-component' id='nav-5' onClick={() => changeNav("Contact")} >
-                    Contact
+                    <img src={projectIcon} alt="project icon" height='100'/>
                 </div>
             </div>
         </div>

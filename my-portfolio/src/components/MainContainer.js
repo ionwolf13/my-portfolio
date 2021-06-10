@@ -5,21 +5,29 @@ import NavComponent from './NavComponent.js';
 import BioComponent from './BioComponent.js';
 import ResumeComponent from './ResumeComponent.js';
 import ProjectsComponent from './ProjectsComponent.js';
+import personalLogo from '../css/personallogoblack.png'
 
 const MainContainer = () => {
 
-    const [portfolioInfo, setPortfolioInfo] = useState({currentLink: 'home'});
+    const [info, setInfo] = useState({currentLink: 'Home'});
 
-
+    console.log("this is the new one", info)
     return(
         <div className='main-container'>
-            <h1 className='main-container-full-name'> Jesus Israel Garcia </h1>
-            <NavComponent portfolioInfo={portfolioInfo} setPortfolioInfo={setPortfolioInfo}/>
-            <HomeComponent/>
-            <BioComponent/>
-            <ResumeComponent/>
-            <ProjectsComponent/>
-            
+            <div className='main-container' id='heading'>
+                <h1 className='main-container-full-name'> Jesus Israel Garcia </h1>
+                <img src={personalLogo} alt='my personal logo' height='200'/>
+                <NavComponent info={info} setInfo={setInfo} />
+            </div>
+            <div className='main-container' id='ext-comp'>
+                {(info.currentLink === 'Home')? <HomeComponent /> 
+                : 
+                [(info.currentLink === 'Bio')? <BioComponent />
+                :
+                [(info.currentLink === 'Resume')? <ResumeComponent /> 
+                :
+                <ProjectsComponent />]]}
+            </div>
         </div>
     )
 }

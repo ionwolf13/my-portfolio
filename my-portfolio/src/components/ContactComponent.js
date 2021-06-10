@@ -14,3 +14,5 @@ const ContactComponent = () => {
         </div>
     )
 }
+
+export default ContactComponent;

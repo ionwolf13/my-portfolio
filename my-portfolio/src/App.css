@@ -41,3 +41,9 @@
   background-image: url(./css/654769.jpg);
   color: white;
 }
+
+.nav-component{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  column-gap: 150px;
+}
