@@ -38,12 +38,28 @@
 }
 
 .app-container{
-  background-image: url(./css/654769.jpg);
+  background: url(./css/grey-2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  /* background: no-repeat; */
   color: white;
 }
 
 .nav-component{
   display: grid;
+  align-self: center;
   grid-template-columns: 25% 25% 25% 25%;
   column-gap: 150px;
+  margin-left: 25%;
+}
+
+#main-heading{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-self: center;
+  column-gap: 50px;
 }

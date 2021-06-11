@@ -14,9 +14,13 @@ const MainContainer = () => {
     console.log("this is the new one", info)
     return(
         <div className='main-container'>
-            <div className='main-container' id='heading'>
-                <h1 className='main-container-full-name'> Jesus Israel Garcia </h1>
-                <img src={personalLogo} alt='my personal logo' height='200'/>
+            <div className='main-container' id='main-heading'>
+                <div>
+                    <h1 className='main-container-full-name'> Jesus Israel Garcia </h1>
+                </div>
+                <div>
+                    <img src={personalLogo} alt='my personal logo' height='200'/>
+                </div>
                 <NavComponent info={info} setInfo={setInfo} />
             </div>
             <div className='main-container' id='ext-comp'>

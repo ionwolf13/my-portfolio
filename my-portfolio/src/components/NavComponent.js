@@ -17,16 +17,16 @@ const NavComponent = ({info, setInfo}) => {
     return(
         <div className='nav-component'>
             <div className='nav-component' id='sec-1'>
-                <div className='nav-component' id='nav-1' onClick={() => changeNav("Home")}>
+                <div className='nav-component' id='icon' onClick={() => changeNav("Home")}>
                     <img src={homeIcon} alt="home icon" height='100'/>
                 </div>
-                <div className='nav-component' id='nav-2' onClick={() => changeNav("Bio")} >
+                <div className='nav-component' id='icon' onClick={() => changeNav("Bio")} >
                     <img src={bioIcon} alt="bio icon" height='100'/>
                 </div>
-                <div className='nav-component' id='nav-3' onClick={() => changeNav("Resume")} >
+                <div className='nav-component' id='icon' onClick={() => changeNav("Resume")} >
                     <img src={resumeIcon} alt="resume icon" height='100'/>
                 </div>
-                <div className='nav-component' id='nav-4' onClick={() => changeNav("Projects")} >
+                <div className='nav-component' id='icon' onClick={() => changeNav("Projects")} >
                     <img src={projectIcon} alt="project icon" height='100'/>
                 </div>
             </div>
