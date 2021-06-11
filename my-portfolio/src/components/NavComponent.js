@@ -8,28 +8,14 @@ const NavComponent = ({info, setInfo}) => {
 
     const changeNav = (iconName) => {
         setInfo({currentLink: iconName})
-        console.log(iconName)
-        console.log(info)
     }
 
-
-
     return(
-        <div className='nav-component'>
-            <div className='nav-component' id='sec-1'>
-                <div className='nav-component' id='icon' onClick={() => changeNav("Home")}>
-                    <img src={homeIcon} alt="home icon" height='100'/>
-                </div>
-                <div className='nav-component' id='icon' onClick={() => changeNav("Bio")} >
-                    <img src={bioIcon} alt="bio icon" height='100'/>
-                </div>
-                <div className='nav-component' id='icon' onClick={() => changeNav("Resume")} >
-                    <img src={resumeIcon} alt="resume icon" height='100'/>
-                </div>
-                <div className='nav-component' id='icon' onClick={() => changeNav("Projects")} >
-                    <img src={projectIcon} alt="project icon" height='100'/>
-                </div>
-            </div>
+        <div className='nav-component' width='400'>
+            <img src={homeIcon} alt="home icon" height='100' onClick={() => changeNav("Home")}/>
+            <img src={bioIcon} alt="bio icon" height='100' onClick={() => changeNav("Bio")} />
+            <img src={resumeIcon} alt="resume icon" height='100' onClick={() => changeNav("Resume")}/>
+            <img src={projectIcon} alt="project icon" height='100' onClick={() => changeNav("Projects")}/>
         </div>
     )
 }
