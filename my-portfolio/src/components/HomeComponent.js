@@ -11,7 +11,7 @@ const HomeComponent = () => {
             </div>
             <div>
                 <h2>Connect with Me!</h2>
-            <img src={contactIcon} alt="contact icon" height='150'/>
+            <img src={contactIcon} alt="contact icon" height='100'/>
                 <p>this is the home component</p>
             </div>
         </div>

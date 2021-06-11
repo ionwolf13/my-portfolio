@@ -22,7 +22,7 @@ const ResumeComponent = () => {
             </div>
             <div className='resumeComponent' id='resume-sec-1'>
                     <h3>Technical Skills</h3>
-                    <img src={codeIcon} alt='codeIcon' height='150'/>
+                    <img src={codeIcon} alt='codeIcon' height='100'/>
                     <div>
                         <p>
                         Ruby, Rails, SQL, JavaScript, React, React-Redux, CSS, Tableau, MatLab, Node.js, MySQL, HTML5, Project 
@@ -32,7 +32,7 @@ const ResumeComponent = () => {
             </div>
             <div className='resumeComponent' id='resume-sec-2'>
                     <h3> Experience </h3>
-                    <img src={experienceIcon} alt='experience icon' height='150'/>
+                    <img src={experienceIcon} alt='experience icon' height='100'/>
                     <div>
                     United Parcel Service Houston, Texas
                     Operations Supervisor July 2015 – October 2020
@@ -47,7 +47,7 @@ const ResumeComponent = () => {
             </div>
             <div className='resumeComponent' id='resume-sec-3'>
                     <h3> Education </h3>
-                    <img src={educationIcon} alt='education icon' height='150'/>
+                    <img src={educationIcon} alt='education icon' height='100'/>
 
                     <div>
                     Flatiron School Coding Bootcamp Houston, Texas

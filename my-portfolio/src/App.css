@@ -38,7 +38,7 @@
 }
 
 .app-container{
-  background: url(./css/654769.jpg) no-repeat center center fixed;
+  background: url(./css/grey-2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -55,4 +55,11 @@
   grid-template-columns: 25% 25% 25% 25%;
   column-gap: 150px;
   margin-left: 25%;
+}
+
+#main-heading{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-self: center;
+  column-gap: 50px;
 }
