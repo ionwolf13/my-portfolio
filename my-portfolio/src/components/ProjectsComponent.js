@@ -3,64 +3,33 @@ import React from 'react';
 const ProjectsComponent = () => {
 
     return(
-        <div className='projectsComponent'>
-            <h1 className='projectsComponent' id='project-title'> Projects </h1>
-            <div className='projectsComponent' id='project-3'>
-                <div className='projectsComponent' id='youtube-link-picture'>
+        <div className='projects-component'>
+            <h1 className='projects-component' id='project-title'> Projects </h1>
+            <div className='projects-component' id='project-5'>
                     <h2>Upgrade</h2>
-                </div>
-                <div className='projectsComponent' id='description'>
-                    
-                </div>
-                <div className='projectsComponent' id='technologies-used'>
-
-                </div>
-
+                    <p>description</p>
+                    <p>tools</p>
             </div>
-            <div className='projectsComponent' id='project-1'>
-                <div className='projectsComponent' id='youtube-link-picture'>
+            <div className='projects-component' id='project-4'>
                     <h2>Vanguard Academy</h2>
-                </div>
-                <div className='projectsComponent' id='description'>
-
-                </div>
-                <div className='projectsComponent' id='technologies-used'>
-
-                </div>
-
+                    <p>description</p>
+                    <p>tools</p>
             </div>
-            <div className='projectsComponent' id='project-2'>
-                <div className='projectsComponent' id='youtube-link-picture'>
+            <div className='projects-component' id='project-3'>
                     <h2>Borgtek</h2>
-                </div>
-                <div className='projectsComponent' id='description'>
-
-                </div>
-                <div className='projectsComponent' id='technologies-used'>
-
-                </div>
-
+                    <p>description</p>
+                    <p>tools</p>
             </div>
-            <div>
-            <div className='projectsComponent' id='youtube-link-picture'>
+            <div className='projects-component' id='project-2'>
                     <h2>Apartments</h2>
-                </div>
-                <div className='projectsComponent' id='description'>
-
-                </div>
-                <div className='projectsComponent' id='technologies-used'>
-
-                </div>
+                    <p>description</p>
+                    <p>tools</p>
             </div>
-            <div className='projectsComponent' id='youtube-link-picture'>
+            <div className='projects-component' id='project-1'>
                     <h2>Video Game Review</h2>
-                
-                <div className='projectsComponent' id='description'>
-
-                </div>
-                <div className='projectsComponent' id='technologies-used'>
-
-                </div>
+                    <p>description</p>
+                    <p>tools</p>
+                    <p>is this gonna show up?</p>
             </div>
         </div>
     )
