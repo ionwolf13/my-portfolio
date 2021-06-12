@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.49f75700.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.1988d3f7.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.1988d3f7.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.51fd3ee8.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.51fd3ee8.js.map",
+    "static/js/2.970f4031.chunk.js": "/my-portfolio/static/js/2.970f4031.chunk.js",
+    "static/js/2.970f4031.chunk.js.map": "/my-portfolio/static/js/2.970f4031.chunk.js.map",
+    "static/js/3.58a3c803.chunk.js": "/my-portfolio/static/js/3.58a3c803.chunk.js",
+    "static/js/3.58a3c803.chunk.js.map": "/my-portfolio/static/js/3.58a3c803.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.49f75700.chunk.css.map": "/my-portfolio/static/css/main.49f75700.chunk.css.map",
+    "static/js/2.970f4031.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.970f4031.chunk.js.LICENSE.txt",
+    "static/media/bioIcon.1c3e05ff.jpg": "/my-portfolio/static/media/bioIcon.1c3e05ff.jpg",
+    "static/media/codeIcon.63dd1bad.png": "/my-portfolio/static/media/codeIcon.63dd1bad.png",
+    "static/media/contactIcon.ca2a811e.png": "/my-portfolio/static/media/contactIcon.ca2a811e.png",
+    "static/media/educationIcon.e0cda31f.png": "/my-portfolio/static/media/educationIcon.e0cda31f.png",
+    "static/media/experienceIcon.e5ea2218.png": "/my-portfolio/static/media/experienceIcon.e5ea2218.png",
+    "static/media/App.css": "/my-portfolio/static/media/grey-2.b1e6ce35.jpg",
+    "static/media/homeIcon.bc6a7661.png": "/my-portfolio/static/media/homeIcon.bc6a7661.png",
+    "static/media/personallogoblack.13e77ac0.png": "/my-portfolio/static/media/personallogoblack.13e77ac0.png",
+    "static/media/pic2.e7bcb337.png": "/my-portfolio/static/media/pic2.e7bcb337.png",
+    "static/media/projectIcon.2fb31045.png": "/my-portfolio/static/media/projectIcon.2fb31045.png",
+    "static/media/resumeIcon.933f258a.png": "/my-portfolio/static/media/resumeIcon.933f258a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51fd3ee8.js",
+    "static/js/2.970f4031.chunk.js",
+    "static/css/main.49f75700.chunk.css",
+    "static/js/main.1988d3f7.chunk.js"
+  ]
+}
