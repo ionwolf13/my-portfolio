@@ -9,8 +9,8 @@ const ResumeComponent = () => {
         <div className='resume-component'>
             <h1 className='resume-component' id='resume-title'> Resume </h1>
             <div className='resume-component' id='resume-sec-1'>
-                    <h3> Software Developer </h3>
-                    <p>
+                    <h2> Software Developer </h2>
+                    <p id='resume-pitch'>
                         Aspiring Computer Engineer learning new frameworks, data structures and architecture. Experienced in Ruby on Rails 
                         and JavaScript programming and a background in Business Operations Management. Strong leadership, team building 
                         and communication skills that help tech companies confidently move towards the future. Passionate about collaborating 
@@ -19,15 +19,29 @@ const ResumeComponent = () => {
                     </p>
             </div>
             <div className='resume-component' id='resume-sec-2'>
-                    <h3>Technical Skills</h3>
-                    <img src={codeIcon} alt='codeIcon' height='100'/>
-                    <p>
+                    <h2 id='sec-2-title'>Technical Skills</h2>
+                    <img src={codeIcon} alt='codeIcon' id='skills-logo' height='100'/>
+                    <div align='center' id='sec-2-logo'>
+                        <img className='tool-logo' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png' alt='HTML' height='40' width='40'/>
+                        <img className='tool-logo' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png' alt='CSS' height='40' width='40'/>
+                        <img className='tool-logo' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png' alt='Bootstrap' height='40' width='40'/>
+                        <img className='tool-logo' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ruby/ruby.png' alt='Ruby' height='40' width='40'/>
+                        <img className='tool-logo' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rails/rails.png' alt='Ruby on Rails' height='40' width='40'/>
+                        <img className='tool-logo' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png' alt='JavaScript' height='40' width='40'/>
+                        <img className='tool-logo' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png' alt='Node.js' height='40' width='40'/>
+                        <img className='tool-logo' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png' alt='React.js' height='40' width='40'/>
+                        <img className='tool-logo' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png' alt='Redux.js' height='40' width='40'/>
+                        <img className='tool-logo' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png' alt='PostgreSQL' height='40' width='40'/>
+                        <img className='tool-logo' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png' alt='SQL' height='40' width='40'/>
+                        <img className='tool-logo' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png' alt='Git' height='40' width='40'/>
+                    </div>
+                    {/* <p>
                         Ruby, Rails, SQL, JavaScript, React, React-Redux, CSS, Tableau, MatLab, Node.js, MySQL, HTML5, Project 
                         Management Skills, Problem Solving Skills, Bug Fixing
-                    </p>
+                    </p> */}
             </div>
             <div className='resume-component' id='resume-sec-3'>
-                    <h3> Experience </h3>
+                    <h2> Experience </h2>
                     <img src={experienceIcon} alt='experience icon' height='100'/>
                     <p>
                         United Parcel Service Houston, Texas
@@ -42,7 +56,7 @@ const ResumeComponent = () => {
                     </p>
             </div>
             <div className='resume-component' id='resume-sec-4'>
-                    <h3> Education </h3>
+                    <h2> Education </h2>
                     <img src={educationIcon} alt='education icon' height='100'/>
                     <p>
                         Flatiron School Coding Bootcamp Houston, Texas
