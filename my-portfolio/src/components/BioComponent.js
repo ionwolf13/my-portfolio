@@ -9,7 +9,19 @@ const BioComponent = () => {
         <div className='bio-component'>
             <h1 className='bio-component' id='bio-title'> About Me! </h1>
             <img src={portrait} alt='portrait' id='portrait' height='200' />
-            <p id='bio-story'> Went North Houston Early College High School and recieved my associates degree from HCC. Went to the University of Houston Downtown and graduated with a Bachelor’s in Mathematics and minor in Computer Science.</p>
+            <p id='bio-story'> 
+                Born in Mexico but raised in Texas. I went to North Houston Early 
+                College High School, where I recieved my High School Diploma along
+                with my Assocaites Degree in Science from HCC. Went to the University 
+                of Houston Downtown and graduated with a Bachelor’s in Mathematics 
+                and minor in Computer Science. While I was full time student, I was 
+                also working at UPS as an Operations Supervisor working full time, 
+                overtime every now and then. My favorite hobbies of all include playing 
+                Guitar, Piano and Video Games. I just recently graduated from a Software 
+                Engineering Program at Flatiron School. This is the toughest program I 
+                have ever attended but had the most unique/greatest experience and 
+                exposure I've ever had. 
+            </p>
             
             <h2 id='hobbies-title'> Hobbies </h2>
             <div id='hobbies'>
