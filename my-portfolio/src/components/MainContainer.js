@@ -6,6 +6,7 @@ import BioComponent from './BioComponent.js';
 import ResumeComponent from './ResumeComponent.js';
 import ProjectsComponent from './ProjectsComponent.js';
 import personalLogo from '../css/personallogoblack.png';
+import ContactComponent from './ContactComponent.js';
 
 const MainContainer = () => {
 
@@ -23,7 +24,10 @@ const MainContainer = () => {
             :
             [(info.currentLink === 'Resume')? <ResumeComponent /> 
             :
-            <ProjectsComponent />]]}
+            [(info.currentLink === 'Blog')? <ContactComponent />
+            :
+            <ProjectsComponent />]]]}
+            <p id='footer'>Copyright © 2021 Unravel | Designed & Built by Jesus Israel Garcia</p>
         </div>
     )
 }
