@@ -66,8 +66,7 @@ const ResumeComponent = () => {
                     <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/FS_wiki.png/440px-FS_wiki.png' alt='flatiron logo' height='50' id='education-logo-1' />
                     <p>
                         
-                        Flatiron School - Houston, Texas
-                        Software Engineer Program, Nov 2020 - March 2021
+                        Flatiron School - Software Engineer Program - Houston, Texas, Nov 2020 - March 2021
                         <br/>● Full Stack Web Development, Ruby on Rails and JavaScript programming 
                         <br/>
                         ● Focused on Back-end using Ruby on Rails, SQLite, Postgres, and Bcrypt 
@@ -76,9 +75,9 @@ const ResumeComponent = () => {
                     </p>
                         <img src='https://upload.wikimedia.org/wikipedia/en/4/40/UHD_logo.png' alt='University of Houston-Downtown logo' height='50' id='education-logo-2'/>
                      <p>
-                        University of Houston - Downtown Houston, Texas
+                        University of Houston - Downtown, Jan 2014 - July 2019
                         <br/>
-                        Bachelor’s Degree in Mathematics, Minor in Computer Science, Jan 2014 - July 2019
+                        Bachelor’s Degree in Mathematics, Minor in Computer Science
                         <br/>
                         ● Selected for Leadership Academy Program
                         <br/>
