@@ -11,7 +11,7 @@ const ResumeComponent = () => {
             <div className='resume-component' id='resume-sec-1'>
                     <h2> Software Developer </h2>
                     <p id='resume-pitch'>
-                        Aspiring Computer Engineer learning new frameworks, data structures and architecture. Experienced in Ruby on Rails 
+                        Aspiring Software Engineer learning new frameworks, data structures and architecture. Experienced in Ruby on Rails 
                         and JavaScript programming and a background in Business Operations Management. Strong leadership, team building 
                         and communication skills that help tech companies confidently move towards the future. Passionate about collaborating 
                         on mathematical and analytical concepts to improve company productivity. Musical and artistic background to improve 
@@ -43,15 +43,18 @@ const ResumeComponent = () => {
             <div className='resume-component' id='resume-sec-3'>
                     <h2> Experience </h2>
                     <img src={experienceIcon} alt='experience icon' height='100'/>
-                    <p>add UPS image here</p>
+                    <img src='https://1000logos.net/wp-content/uploads/2021/04/UPS-logo-1536x864.png' alt='UPS logo' height='50' id='work-logo'/>
                     <p>
-                        United Parcel Service Houston, Texas
-                        Operations Supervisor July 2015 – October 2020
-                        ● Met and exceeded internal production goals and established reports to make data-driven improvements. Helped 
+                    
+                        United Parcel Service Houston, Texas     
+                        <br/>Operations Supervisor,      July 2015 – October 2020
+                        <br/>● Met and exceeded internal production goals and established reports to make data-driven improvements. Helped 
                         export 72k pieces on a daily basis, helping to keep the ETA on track. 
+                        <br/>
                         ● Managed/trained new and current employees, to help improve safety, work efficiency and attention to detail.
-                        Increased management responsibility from 8 to 32 employees over the course of 2 years.
-                        ● Trained new supervisors for specific areas of operations in the warehouse.Introduced and reinforced knowledge on 
+                        Increased management responsibility from 8 to 32 employees over the course of 1 year.
+                        <br/>
+                        ● Trained new supervisors for specific areas of operations in the warehouse. Introduced and reinforced knowledge on 
                         how to manage employees, knowledge of machinery and necessary information to complete tasks. Gave 
                         expectations of goals to be met.
                     </p>
@@ -59,19 +62,26 @@ const ResumeComponent = () => {
             <div className='resume-component' id='resume-sec-4'>
                     <h2> Education </h2>
                     <img src={educationIcon} alt='education icon' height='100'/>
-                    <p>add Flatiron Image here</p>
+                    
+                    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/FS_wiki.png/440px-FS_wiki.png' alt='flatiron logo' height='50' id='education-logo-1' />
                     <p>
-                        Flatiron School Coding Bootcamp Houston, Texas
-                        Software Engineering Program
-                        Full Stack Web Development, Ruby on Rails and JavaScript programming November 2020 - March 2021
+                        
+                        Flatiron School - Houston, Texas
+                        Software Engineer Program, Nov 2020 - March 2021
+                        <br/>● Full Stack Web Development, Ruby on Rails and JavaScript programming 
+                        <br/>
                         ● Focused on Back-end using Ruby on Rails, SQLite, Postgres, and Bcrypt 
+                        <br/>
                         ● Front-end Web Development using Javascript, React.js, Hooks, React Routes, Axios, Material UI
-                        </p>
-                        <p>add University of Houston Downtown Image here</p>
-                        <p>
+                    </p>
+                        <img src='https://upload.wikimedia.org/wikipedia/en/4/40/UHD_logo.png' alt='University of Houston-Downtown logo' height='50' id='education-logo-2'/>
+                     <p>
                         University of Houston - Downtown Houston, Texas
-                        Bachelor’s Degree in Mathematics, Minor in Computer Science July/ 2019
+                        <br/>
+                        Bachelor’s Degree in Mathematics, Minor in Computer Science, Jan 2014 - July 2019
+                        <br/>
                         ● Selected for Leadership Academy Program
+                        <br/>
                         ● Senior Research Project - Focused on Kelvin Waves in El Niño - Southern Oscillations
                     </p>
             </div>

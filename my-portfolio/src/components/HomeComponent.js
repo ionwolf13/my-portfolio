@@ -6,7 +6,7 @@ const HomeComponent = () => {
     return(
         <div className='home-component'>
             <h1 id='home-title'>Let's Connect!</h1>
-            <img src={contactIcon} alt="contact icon" height='100'/>
+            <img src={contactIcon} alt="contact icon" height='100' id='contact-icon'/>
                 <a href='https://www.linkedin.com/in/jesus-israel-garcia/' > 
                     <img src='https://www.fpsa.org/wp-content/uploads/linkedin-logo-copy.png' alt='LinkedIn Logo' height='50' id='contact-1' />
                 </a>
@@ -19,7 +19,9 @@ const HomeComponent = () => {
                 <a href='jeisgar13@gmail.com' > 
                     <img src='https://www.clintonfitch.com/wp-content/uploads/2018/01/Gmail-Icon.png' alt='LinkedIn Logo' height='50' id='contact-4' />
                 </a>
-                <p> Portfolio Created with JavaScript and React.js </p>
+                <a href='https://israel-garcia1b.medium.com/'>
+                    <img src='https://www.graphicdesignforum.com/uploads/default/original/2X/0/0e58f26a6dd982e7f04d1286defd4320e6d6153b.jpeg' alt='medium logo' height='50' id='contact-5'/>
+                </a>
         </div>
     )
 }

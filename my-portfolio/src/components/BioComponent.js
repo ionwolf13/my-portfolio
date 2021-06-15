@@ -13,9 +13,9 @@ const BioComponent = () => {
                 Born in Mexico but raised in Texas. I went to North Houston Early 
                 College High School, where I recieved my High School Diploma along
                 with my Assocaites Degree in Science from HCC. Went to the University 
-                of Houston Downtown and graduated with a Bachelor’s in Mathematics 
-                and minor in Computer Science. While I was full time student, I was 
-                also working at UPS as an Operations Supervisor working full time, 
+                of Houston Downtown full time and graduated with a Bachelor’s in Mathematics 
+                and minor in Computer Science. During my college career, I also worked 
+                full time at UPS as an Operations Supervisor, 
                 overtime every now and then. My favorite hobbies of all include playing 
                 Guitar, Piano and Video Games. I just recently graduated from a Software 
                 Engineering Program at Flatiron School. This is the toughest program I 

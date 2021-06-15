@@ -83,7 +83,7 @@
   grid-row-start: 3;
   justify-self: center;
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   column-gap: 15px;
   margin-top: 10px;
   margin-right: 35px;
@@ -100,30 +100,63 @@
   justify-self: center;
   justify-content: center;
   margin-bottom: 0px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
 }
 
 #home-title{
+  grid-column: 1/6;
+  grid-row-start: 1;
   justify-self: center;
-  margin-left: 25%;
 }
+
+#contact-icon{
+  grid-column: 1/6;
+  grid-row-start: 2;
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 15px;
+}
+
 #contact-1{
-  margin-left: 25px;
+  grid-row-start: 3;
+  grid-column-start: 1;
   margin-bottom: 25px;
+  align-self: center;
   justify-self: center;
 }
 #contact-2{
+  grid-row-start: 3;
+  grid-column-start: 2;
   margin-left: 25px;
   margin-bottom: 25px;
+  align-self: center;
   justify-self: center;
 }
 #contact-3{
+  grid-row-start: 3;
+  grid-column-start: 3;
   margin-left: 25px;
   margin-bottom: 25px;
+  align-self: center;
   justify-self: center;
 }
 #contact-4{
+  grid-row-start: 3;
+  grid-column-start: 4;
   margin-left: 25px;
   margin-bottom: 25px;
+  align-self: center;
+  justify-self: center;
+}
+
+#contact-5{
+  grid-row-start: 3;
+  grid-column-start: 5;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  align-self: center;
   justify-self: center;
 }
 /* Homed Ending  */
@@ -246,6 +279,18 @@
   justify-items: center;
   text-align: justify;
 }
+
+#work-logo{
+  margin-top: 15px;
+}
+
+#education-logo-1{
+  margin-top: 15px;
+}
+
+#education-logo-2{
+  margin-top: 15px;
+}
 /* Resume Component Ending  */
 
 /* Projects Component Start  */
@@ -289,6 +334,33 @@
 
 /* Projects Component Ending  */
 
+/* Blog Component Start  */
+.blog-component{
+  grid-column:2/4;
+  grid-row-start: 4;
+  justify-self: center;
+  align-content: center;
+  display: grid;
+}
+
+#blog-header{
+  align-self: center;
+  justify-self: center;
+}
+
+#blog-1{
+  margin-top: 20px;
+  align-content: center;
+  justify-content: center;
+}
+
+/* Blog Component End  */
 span{
   margin-left: 25px;
+}
+
+#footer{
+  grid-column: 1/5;
+  grid-row-start: 5;
+  justify-self: center;
 }
