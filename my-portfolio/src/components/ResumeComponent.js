@@ -43,6 +43,7 @@ const ResumeComponent = () => {
             <div className='resume-component' id='resume-sec-3'>
                     <h2> Experience </h2>
                     <img src={experienceIcon} alt='experience icon' height='100'/>
+                    <p>add UPS image here</p>
                     <p>
                         United Parcel Service Houston, Texas
                         Operations Supervisor July 2015 – October 2020
@@ -58,12 +59,16 @@ const ResumeComponent = () => {
             <div className='resume-component' id='resume-sec-4'>
                     <h2> Education </h2>
                     <img src={educationIcon} alt='education icon' height='100'/>
+                    <p>add Flatiron Image here</p>
                     <p>
                         Flatiron School Coding Bootcamp Houston, Texas
                         Software Engineering Program
                         Full Stack Web Development, Ruby on Rails and JavaScript programming November 2020 - March 2021
                         ● Focused on Back-end using Ruby on Rails, SQLite, Postgres, and Bcrypt 
                         ● Front-end Web Development using Javascript, React.js, Hooks, React Routes, Axios, Material UI
+                        </p>
+                        <p>add University of Houston Downtown Image here</p>
+                        <p>
                         University of Houston - Downtown Houston, Texas
                         Bachelor’s Degree in Mathematics, Minor in Computer Science July/ 2019
                         ● Selected for Leadership Academy Program
