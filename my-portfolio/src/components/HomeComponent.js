@@ -19,6 +19,7 @@ const HomeComponent = () => {
                 <a href='jeisgar13@gmail.com' > 
                     <img src='https://www.clintonfitch.com/wp-content/uploads/2018/01/Gmail-Icon.png' alt='LinkedIn Logo' height='50' id='contact-4' />
                 </a>
+                <p> Portfolio Created with JavaScript and React.js </p>
         </div>
     )
 }
