@@ -14,7 +14,7 @@ const BlogsComponent = () => {
         <div className='blog-component'>
             <h1 id='blog-header'> Checkout My Blogs! </h1>
             <div className='blogs' id='blog-1'>
-                <h2 id='blog-1-title'> Learn to Learn </h2>
+                <h2 id='blog-1-title'> <u>Learn to Learn</u> </h2>
                 <a href='https://israel-garcia1b.medium.com/learn-to-learn-86639f9e04b3'>
                     <img src={blogLearn} alt='blog learn to learn' height='100'/>
                 </a>
@@ -28,7 +28,7 @@ const BlogsComponent = () => {
             </div>
             <br/>
             <div className='blogs' id='blog-2'>
-                <h2 id='blog-2-title'> Flowing Through MVC </h2>
+                <h2 id='blog-2-title'> <u>Flowing Through MVC </u></h2>
                 <a href='https://israel-garcia1b.medium.com/flowing-through-mvc-5bbb1c4234d8'>
                     <img src={blogMVC} alt='blog flowing through MVC' height='100' />
                 </a>
@@ -43,7 +43,7 @@ const BlogsComponent = () => {
             </div>
             <br/>
             <div className='blogs' id='blog-3'>
-                <h2 id='blog-3-title'>Multiple has Many to Many Ruby Guide</h2>
+                <h2 id='blog-3-title'><u>Multiple has Many to Many Ruby Guide</u></h2>
                 <a href='https://israel-garcia1b.medium.com/multiple-has-many-to-many-ruby-guide-4bdfb0aa881d'>
                     <img src={blogMany} alt='blog many to many' height='100'/>
                 </a>
@@ -57,7 +57,7 @@ const BlogsComponent = () => {
             </div>
             <br/>
             <div className='blogs' id='blog-4'>
-                <h2 id='blog-4-title'>Sync With JS </h2>
+                <h2 id='blog-4-title'><u>Sync With JS </u></h2>
                 <a href='https://israel-garcia1b.medium.com/sync-with-js-c24bebc55f88'>
                     <img src={blogSync} alt='blog sync with js' height='100'/>
                 </a>
@@ -71,7 +71,7 @@ const BlogsComponent = () => {
             </div>
             <br/>
             <div className='blogs' id='blog-5'>
-                <h2 id='blog-5-title'> Three Pillars of Web Development </h2>
+                <h2 id='blog-5-title'><u> Three Pillars of Web Development </u></h2>
                 <a href='https://israel-garcia1b.medium.com/three-pillars-of-web-development-191dad27efe2'>
                     <img src={blogThree} alt='blog three pillars' height='100' />
                 </a>
@@ -85,7 +85,7 @@ const BlogsComponent = () => {
             </div>
             <br/>
             <div className='blogs' id='blog-6'>
-                <h2 id='blog-6-title'> Yarn VS NPM </h2>
+                <h2 id='blog-6-title'><u> Yarn VS NPM </u></h2>
                 <a href='https://israel-garcia1b.medium.com/yarn-vs-npm-4957401c37fc'>
                     <img src={blogYarn} alt='blog yarn vs npm' height='100' />
                 </a>
@@ -100,7 +100,7 @@ const BlogsComponent = () => {
             </div>
             <br/>
             <div className='blogs' id='blog-7'>
-                <h2 id='blog-7-title'> Components in React </h2>
+                <h2 id='blog-7-title'><u> Components in React </u></h2>
                 <a href='https://israel-garcia1b.medium.com/components-in-react-43e5564ffbb2'>
                     <img src={blogComp} alt='blog components in react' height='100' />
                 </a>
@@ -114,7 +114,7 @@ const BlogsComponent = () => {
             </div>
             <br/>
             <div className='blogs' id='blog-8'>
-                <h2 id='blog-8-title'> Memes about Coding</h2>
+                <h2 id='blog-8-title'><u> Memes about Coding</u></h2>
                 <a href='https://israel-garcia1b.medium.com/memes-about-coding-c442fb5490'>
                     <img src={blogMeme} alt='blog memes' height='100' />
                 </a>

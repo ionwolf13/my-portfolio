@@ -43,11 +43,11 @@ const ResumeComponent = () => {
             <div className='resume-component' id='resume-sec-3'>
                     <h2> Experience </h2>
                     <img src={experienceIcon} alt='experience icon' height='100'/>
-                    <img src='https://1000logos.net/wp-content/uploads/2021/04/UPS-logo-1536x864.png' alt='UPS logo' height='50' id='work-logo'/>
+                    <img src='https://1000logos.net/wp-content/uploads/2021/04/UPS-logo-1536x864.png' alt='UPS logo' height='80' id='work-logo'/>
                     <p>
                     
-                        United Parcel Service Houston, Texas     
-                        <br/>Operations Supervisor,      July 2015 – October 2020
+                        United Parcel Service - Houston, Texas - July 2015 – October 2020
+                        <br/>Operations Supervisor,      
                         <br/>● Met and exceeded internal production goals and established reports to make data-driven improvements. Helped 
                         export 72k pieces on a daily basis, helping to keep the ETA on track. 
                         <br/>
@@ -63,10 +63,12 @@ const ResumeComponent = () => {
                     <h2> Education </h2>
                     <img src={educationIcon} alt='education icon' height='100'/>
                     
-                    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/FS_wiki.png/440px-FS_wiki.png' alt='flatiron logo' height='50' id='education-logo-1' />
+                    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/FS_wiki.png/440px-FS_wiki.png' alt='flatiron logo' height='80' id='education-logo-1' />
                     <p>
                         
-                        Flatiron School - Software Engineer Program - Houston, Texas, Nov 2020 - March 2021
+                        Flatiron School - Houston, Texas, Nov 2020 - March 2021
+                        <br/>
+                        Software Engineering Program 
                         <br/>● Full Stack Web Development, Ruby on Rails and JavaScript programming 
                         <br/>
                         ● Focused on Back-end using Ruby on Rails, SQLite, Postgres, and Bcrypt 
