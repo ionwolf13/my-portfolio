@@ -9,25 +9,25 @@ const ProjectsComponent = () => {
             <div className='project-component' id='project-1'>
                     <h2 className='project-titles'>Upgrade</h2>
                     <img className='project-images' src={vanguard} alt='project-logo' height='100'/>
-                    <a className='project-gitHub-logo' href='' > 
+                    <a className='project-gitHub-logo' href='https://github.com/ionwolf13/my-portfolio' > 
                         <img src='http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Github-icon.png' alt='Github Logo' height='50' id='contact-2' />
                     </a>
-                    <a className='project-youTube-link' href=''>
+                    <a className='project-youTube-link' href='https://github.com/ionwolf13/my-portfolio'>
                         <img src='https://logos-world.net/wp-content/uploads/2020/04/YouTube-Emblem.png' alt='youtube logo' height='45' />
                     </a>
                     <p className='project-description'>
                         <strong>Currently Under Construction!</strong><br/> This app will help users create a healthier and motivating lifestyle.
                         It will teach them that anything is possible no matter how hard and that age doesn't matter.
                     </p>
-                    <p className='project-tools'> <strong>PostgreSQL, Ruby, JWT, JavaScript, React, Axios, Material-UI, Chart.js </strong></p>
+                    <p className='project-tools'> <strong>Tools: PostgreSQL, Ruby, JWT, JavaScript, React, Axios, Material-UI, Chart.js </strong></p>
             </div>
             <div className='project-component' id='project-2'>
                     <h2 className='project-titles'>Vanguard Academy</h2>
                     <img className='project-images' src={vanguard} alt='project-logo' height='100'/>
-                    <a className='project-gitHub-logo'href='' > 
+                    <a className='project-gitHub-logo'href='https://github.com/ionwolf13/my-portfolio' > 
                         <img src='http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Github-icon.png' alt='Github Logo' height='50' id='contact-2' />
                     </a>
-                    <a className='project-youTube-link' href=''>
+                    <a className='project-youTube-link' href='https://github.com/ionwolf13/my-portfolio'>
                         <img src='https://logos-world.net/wp-content/uploads/2020/04/YouTube-Emblem.png' alt='youtube logo' height='45' />
                     </a>
                     <p className='project-description'>
@@ -39,15 +39,15 @@ const ProjectsComponent = () => {
                             see which assignments have been completed and when next one's are due. There is also a small quiz that
                             tests their learning to style to help them focus on how they learn best.  
                     </p>
-                    <p className='project-tools'> <strong>PostgreSQL, Ruby, JWT, Bcrypt, JavaScript, React.Js, Material-UI, Axios, Chart.Js</strong></p>
+                    <p className='project-tools'> <strong>Tools: PostgreSQL, Ruby, JWT, Bcrypt, JavaScript, React.Js, Material-UI, Axios, Chart.Js</strong></p>
             </div>
             <div className='project-component' id='project-3'>
                     <h2 className='project-titles'>Borgtek</h2>
                     <img className='project-images' src={vanguard} alt='project-logo' height='100'/>
-                    <a className='project-gitHub-logo'href='' > 
+                    <a className='project-gitHub-logo'href='https://github.com/ionwolf13/my-portfolio' > 
                         <img src='http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Github-icon.png' alt='Github Logo' height='50' id='contact-2' />
                     </a>
-                    <a className='project-youTube-link' href=''>
+                    <a className='project-youTube-link' href='https://github.com/ionwolf13/my-portfolio'>
                         <img src='https://logos-world.net/wp-content/uploads/2020/04/YouTube-Emblem.png' alt='youtube logo' height='45' />
                     </a>
                     <p className='project-description'>
@@ -59,7 +59,7 @@ const ProjectsComponent = () => {
                         a PC, if not it will throw an alert. A user can also purchase indivual pieces. After a purchase is completed, recieve 
                         a receipt, one that is printed and another emailed. 
                     </p>
-                    <p className='project-tools'> <strong>PostgreSQL, Ruby, Bcrypt, JavaScript, React.Js </strong></p>
+                    <p className='project-tools'> <strong>Tools: PostgreSQL, Ruby, Bcrypt, JavaScript, React.Js </strong></p>
             </div>
             <div className='project-component' id='project-4'>
                     <h2 className='project-titles'>BorgLancer</h2>
@@ -67,7 +67,7 @@ const ProjectsComponent = () => {
                     <a className='project-gitHub-logo'href='https://github.com/ManBytesDog/freelance-jobs-app' > 
                         <img src='http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Github-icon.png' alt='Github Logo' height='50' id='contact-2' />
                     </a>
-                    <a className='project-youTube-link' href=''>
+                    <a className='project-youTube-link' href='https://github.com/ionwolf13/my-portfolio'>
                         <img src='https://logos-world.net/wp-content/uploads/2020/04/YouTube-Emblem.png' alt='youtube logo' height='45' />
                     </a>
                     <p className='project-description'> 
@@ -78,15 +78,15 @@ const ProjectsComponent = () => {
                         reviews based off how they did the job. Freelancers can give reviews about the people who hired them, to show 
                         how they were treated during the job. Sign up! It's free to use! 
                     </p>
-                    <p className='project-tools'> <strong>SQLite, Ruby, Bcrypt, Ruby on Rails </strong></p>
+                    <p className='project-tools'> <strong>Tools: SQLite, Ruby, Bcrypt, Ruby on Rails </strong></p>
             </div>
             <div className='project-component' id='project-5'>
                     <h2 className='project-titles'>Video Game Review</h2>
                     <img className='project-images' src={vanguard} alt='project-logo' height='100'/>
-                    <a className='project-gitHub-logo'href='' > 
+                    <a className='project-gitHub-logo'href='https://github.com/ionwolf13/my-portfolio' > 
                         <img src='http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Github-icon.png' alt='Github Logo' height='50' id='contact-2' />
                     </a>
-                    <a className='project-youTube-link' href=''>
+                    <a className='project-youTube-link' href='https://github.com/ionwolf13/my-portfolio'>
                         <img src='https://logos-world.net/wp-content/uploads/2020/04/YouTube-Emblem.png' alt='youtube logo' height='45' />
                     </a>
                     <p className='project-description'> 
@@ -95,7 +95,7 @@ const ProjectsComponent = () => {
                         the video games you own and have given reviews to. You can update any reviews and add/remove new games
                         to your list.
                     </p>
-                    <p className='project-tools'> <strong>SQLite, Ruby, TTY-prompt </strong></p>
+                    <p className='project-tools'> <strong>Tools: SQLite, Ruby, TTY-prompt </strong></p>
             </div>
         </div>
     )
