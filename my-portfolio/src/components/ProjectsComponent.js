@@ -8,7 +8,7 @@ const ProjectsComponent = () => {
             <h1 id='project-title'> Projects </h1>
             <div className='project-component' id='project-1'>
                     <h2 className='project-titles'>Upgrade</h2>
-                    <img className='project-images' src={vanguard} alt='project image goes here' height='100'/>
+                    <img className='project-images' src={vanguard} alt='project-logo' height='100'/>
                     <a className='project-gitHub-logo' href='' > 
                         <img src='http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Github-icon.png' alt='Github Logo' height='50' id='contact-2' />
                     </a>
@@ -23,7 +23,7 @@ const ProjectsComponent = () => {
             </div>
             <div className='project-component' id='project-2'>
                     <h2 className='project-titles'>Vanguard Academy</h2>
-                    <img className='project-images' src={vanguard} alt='project image goes here' height='100'/>
+                    <img className='project-images' src={vanguard} alt='project-logo' height='100'/>
                     <a className='project-gitHub-logo'href='' > 
                         <img src='http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Github-icon.png' alt='Github Logo' height='50' id='contact-2' />
                     </a>
@@ -43,7 +43,7 @@ const ProjectsComponent = () => {
             </div>
             <div className='project-component' id='project-3'>
                     <h2 className='project-titles'>Borgtek</h2>
-                    <img className='project-images' src={vanguard} alt='project image goes here' height='100'/>
+                    <img className='project-images' src={vanguard} alt='project-logo' height='100'/>
                     <a className='project-gitHub-logo'href='' > 
                         <img src='http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Github-icon.png' alt='Github Logo' height='50' id='contact-2' />
                     </a>
@@ -63,7 +63,7 @@ const ProjectsComponent = () => {
             </div>
             <div className='project-component' id='project-4'>
                     <h2 className='project-titles'>BorgLancer</h2>
-                    <img className='project-images' src={vanguard} alt='project image goes here' height='100'/>
+                    <img className='project-images' src={vanguard} alt='project-logo' height='100'/>
                     <a className='project-gitHub-logo'href='https://github.com/ManBytesDog/freelance-jobs-app' > 
                         <img src='http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Github-icon.png' alt='Github Logo' height='50' id='contact-2' />
                     </a>
@@ -82,7 +82,7 @@ const ProjectsComponent = () => {
             </div>
             <div className='project-component' id='project-5'>
                     <h2 className='project-titles'>Video Game Review</h2>
-                    <img className='project-images' src={vanguard} alt='project image goes here' height='100'/>
+                    <img className='project-images' src={vanguard} alt='project-logo' height='100'/>
                     <a className='project-gitHub-logo'href='' > 
                         <img src='http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Github-icon.png' alt='Github Logo' height='50' id='contact-2' />
                     </a>
